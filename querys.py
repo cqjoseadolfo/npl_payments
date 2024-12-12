@@ -9,7 +9,7 @@ def get_cuenta_npl(contrato_param):
 
     query = """
         SELECT cuenta
-        FROM [automatizacion].[omni].[vw_cuentas_activas_npl]
+        FROM [servex].[omni].[vw_cuentas_activas_npl]
         WHERE CONTRATO_CAJAS = ? OR CONTRATO_IBK = ?
     """
     cursor.execute(query, (contrato_param,contrato_param))
