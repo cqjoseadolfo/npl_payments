@@ -1,6 +1,6 @@
 database:
   driver: 'ODBC Driver 17 for SQL Server'
-  server: 'DESKTOP-ANGIACE\MSSQLSERVER2022'
-  database: 'servex'
+  server: '192.168.3.106'
+  database: 'automatizacion'
   username: 'dba_test'
-  password: 'Servex.2024'
+  password: 'Report$51'
